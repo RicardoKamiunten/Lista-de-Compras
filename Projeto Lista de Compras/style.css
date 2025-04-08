@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Garamond", serif;
+}
+
+body{
+	background-color: #f9f4df;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(Imagens/Fundo.png);
+ 	background-size: 300px;*/
+}
+
+/*Início configurações menu*/
+#principal{
+	margin: 15px auto;
+}
+/*Fim configurações menu*/
+
+
+/*Início configurações cabeçalho*/
+#cabeçalho{
+	background: #a9cce3;
+	text-align: center;
+	padding: 30px;
+	border-top: 2px solid #005a95;
+	border-bottom: 2px solid #005a95;
+}
+
+#verde{
+	color: #196f3d;
+	border: none;
+	padding: 0;
+}
+
+h2{
+	color: #005a95;
+	font-size: 30px;
+}
+/*Fim configurações cabeçalho*/
+
+
+/*Início configurações menu*/
+#menu{
+	background: #a9cce3;
+	padding: 18px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+}
+
+ul a{
+	text-decoration: none;
+	font-weight: bold;
+	transition-duration: 0.2s;
+}
+
+ul a:link, a:visited{
+	color: #196f3d;
+	
+}
+
+ul a:hover{
+	background: #c4e2f7;
+	border-radius: 15px;
+}
+
+li a{
+	display: block;
+	padding: 0 50px;
+	line-height: 30px;
+}
+
+#lista-de-compras #menu .lista-completa,
+#proteinas #menu .proteinas,
+#mercearia #menu .mercearia,
+#lacticinios #menu .lacticinios,
+#bebidas #menu .bebidas,
+#limpeza #menu .limpeza,
+#higiene #menu .higiene,
+#utilidades #menu .utilidades{
+	background: #c4e2f7;
+	border-radius: 15px;
+}
+
+/*Fim configurações Menu*/
+
+
+/*Início configurações conteúdo*/
+#conteúdo{
+	text-align: left;
+	width: 200px;
+	margin: auto;
+	padding-top: 100px;
+	font-size: 18px;
+}
+
+#botão{
+	padding: 15px 30px;
+	color: #196f3d;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 25px;
+	background-color: #a9cce3;
+	border: solid 2px #82bbdf;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+select{
+	text-align: center;
+}
+
+/*Início configurações conteúdo*/
+
+
+/*Início configurações rodapé*/
+#rodapé{
+	background: #a9cce3;
+	padding: 15px;
+	text-align: center;
+
+}
+
+h4{
+	color: #196f3d;
+}
+/*Fim configurações rodapé*/
